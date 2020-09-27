@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+body div.container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+}
+
+header .img {
+  max-width: 250px;
+  width: 25%;
+  height: auto;
+  margin: auto;
+}
+
+header .img img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 30px auto;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 15px;
+}
+
+div.main-container {
+  width: 100%;
+  height: auto;
+  background-image: url("http://127.0.0.1:8000/images/fondo-pag-speciali.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+div.main-container h3 {
+  margin: 40px auto 15px;
+}
+
+div.main-container div.long,
+div.main-container div.short,
+div.main-container div.shorter {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 150px;
+}
+
+div.main-container div.long div.img,
+div.main-container div.short div.img,
+div.main-container div.shorter div.img {
+  width: 20%;
+  min-width: 150px;
+  height: auto;
+  margin: 5px;
+}
+
+div.main-container div.long div.img img,
+div.main-container div.short div.img img,
+div.main-container div.shorter div.img img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  background-image: url("http://127.0.0.1:8000/images/footer-montagne-bottom.jpg");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+footer div.footer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer div.footer-container div.logo-contatti {
+  width: 15%;
+  min-width: 100px;
+  height: auto;
+  margin: 0 15px;
+}
+
+footer div.footer-container div.logo-contatti img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer div.footer-container div.logo-contatti p {
+  font-size: 8px;
+}
+
+footer div.footer-container div.info {
+  width: 39%;
+  height: 450px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+footer div.footer-container div.info div.info-block {
+  margin: 0 15px;
+}
+
+footer div.footer-container div.info div.info-block h4 {
+  font-size: 13px;
+}
+
+footer div.footer-container div.info div.info-block ul li {
+  display: block;
+}
+
+footer div.footer-container div.info div.info-block ul li a {
+  font-size: 13px;
+}
+

@@ -1,0 +1,60 @@
+footer {
+  width: 100vw;
+  height: auto;
+  background-image: url('http://127.0.0.1:8000/images/footer-montagne-bottom.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+
+  div.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    div.logo-contatti {
+      width: 15%;
+      min-width: 100px;
+      height: auto;
+      margin: 0 15px;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 8px;
+      }
+
+    }
+
+    div.info {
+      width: 39%;
+      height: 450px;
+      display: flex;
+      flex-flow: column wrap;
+
+      div.info-block {
+        margin: 0 15px;
+
+        h4 {
+          font-size: 13px;
+        }
+
+        ul {
+
+          li {
+            display: block;
+
+            a {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
